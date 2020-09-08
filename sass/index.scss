@@ -1,0 +1,33 @@
+$myfont: Georgia 1.1em;
+$myColor: indianred;
+
+@mixin common-style {
+  color: $myColor;
+  font-size: 25px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 1em;
+}
+
+@mixin details {
+  color: teal;
+  padding: 0.5em;
+}
+
+.main {
+  font: $myfont;
+
+  h1 {
+    color: blueviolet;
+  }
+
+  .savings,
+  .current {
+    @include common-style;
+  }
+
+  .s-details,
+  .c-details {
+    @include details();
+  }
+}

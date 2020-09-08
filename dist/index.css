@@ -1,0 +1,19 @@
+.main {
+  font: Georgia 1.1em;
+}
+.main h1 {
+  color: blueviolet;
+}
+.main .savings,
+.main .current {
+  color: indianred;
+  font-size: 25px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 1em;
+}
+.main .s-details,
+.main .c-details {
+  color: teal;
+  padding: 0.5em;
+}

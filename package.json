@@ -1,0 +1,24 @@
+{
+  "name": "js-oops-concepts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -w sass/index.scss -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarikaAvadutha/JS-OOPS-Concepts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarikaAvadutha/JS-OOPS-Concepts/issues"
+  },
+  "homepage": "https://github.com/HarikaAvadutha/JS-OOPS-Concepts#readme",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^4.14.1"
+  }
+}
