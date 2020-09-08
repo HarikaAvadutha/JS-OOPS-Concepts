@@ -17,4 +17,12 @@ export class Bank {
     console.log(`Account number is: ${this.accountNum}`);
     console.log(`Current Available Balance is ${this.balance}`);
   }
+
+  static getBankDetails() {
+    return {
+      name: 'My Bank',
+      address: 'Somewhere here around,000000',
+      IFSCCode: 10010023,
+    };
+  }
 }

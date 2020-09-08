@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -17,19 +17,28 @@ var Bank = exports.Bank = function () {
   }
 
   _createClass(Bank, [{
-    key: "getAccountDetails",
+    key: 'getAccountDetails',
     value: function getAccountDetails() {
-      console.log("Account number is: " + this.accountNum);
-      console.log("Current Available Balance is " + this.balance);
+      console.log('Account number is: ' + this.accountNum);
+      console.log('Current Available Balance is ' + this.balance);
     }
   }, {
-    key: "balance",
+    key: 'balance',
     get: function get() {
       return this._balance;
     },
     set: function set(amount) {
       this._balance += amount;
-      console.log("Amount " + amount + " is added to your balance");
+      console.log('Amount ' + amount + ' is added to your balance');
+    }
+  }], [{
+    key: 'getBankDetails',
+    value: function getBankDetails() {
+      return {
+        name: 'My Bank',
+        address: 'Somewhere here around,000000',
+        IFSCCode: 10010023
+      };
     }
   }]);
 
